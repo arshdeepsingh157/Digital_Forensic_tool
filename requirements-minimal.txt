@@ -1,0 +1,45 @@
+# Minimal Requirements - Core functionality without optional packages
+# Use this if you're having network issues
+
+# ============================================
+# Core Web Framework
+# ============================================
+fastapi==0.109.0
+uvicorn==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# ============================================
+# Database (Install manually if needed)
+# ============================================
+# psycopg2-binary==2.9.9  # PostgreSQL - Install separately if network issues
+# pymongo==4.6.1          # MongoDB - Install separately if network issues
+# sqlalchemy==2.0.25      # ORM - Install separately if network issues
+
+# ============================================
+# Essential Dependencies (small packages)
+# ============================================
+python-dotenv==1.0.0
+loguru==0.7.2
+python-multipart==0.0.6
+
+# ============================================
+# Image Processing (may require system dependencies)
+# ============================================
+# Pillow==10.2.0
+# opencv-python==4.9.0.80
+# scikit-image==0.22.0
+# exifread==3.0.0
+
+# ============================================
+# Data Processing
+# ============================================
+# pandas==2.1.4
+# numpy==1.26.3
+
+# ============================================
+# To install remaining packages later:
+# ============================================
+# pip install psycopg2-binary pymongo sqlalchemy
+# pip install Pillow opencv-python scikit-image exifread
+# pip install pandas numpy
